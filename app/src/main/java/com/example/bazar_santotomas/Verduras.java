@@ -1,5 +1,4 @@
 package com.example.bazar_santotomas;
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
