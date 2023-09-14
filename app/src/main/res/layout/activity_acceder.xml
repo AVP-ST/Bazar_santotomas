@@ -66,7 +66,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.63"
         app:srcCompat="@mipmap/breads"
-        tools:ignore="ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView5"
@@ -79,7 +79,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
         app:layout_constraintVertical_bias="0.0" />
@@ -99,7 +99,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.63"
         app:srcCompat="@mipmap/drinks"
-        tools:ignore="ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView6"
@@ -132,7 +132,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.313"
         app:srcCompat="@mipmap/vegetable"
-        tools:ignore="ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView3"
@@ -146,7 +146,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintHorizontal_bias="0.223"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
         app:layout_constraintVertical_bias="0.0" />
@@ -182,6 +182,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.312"
-        app:srcCompat="@mipmap/fruits" />
+        app:srcCompat="@mipmap/fruits"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </android.support.constraint.ConstraintLayout>
