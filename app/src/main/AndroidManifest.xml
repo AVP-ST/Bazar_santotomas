@@ -20,22 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Acceder">
-        </activity>
-
-        <activity android:name=".Abarrotes">
-        </activity>
-
-        <activity android:name=".Frutas">
-        </activity>
-
-        <activity android:name=".Verduras">
-        </activity>
-
-        <activity android:name=".Bebestibles">
-        </activity>
-
+        <activity android:name=".Acceder" />
+        <activity android:name=".Abarrotes" />
+        <activity android:name=".Frutas" />
+        <activity android:name=".Verduras" />
+        <activity android:name=".Bebestibles" />
     </application>
 
 </manifest>
