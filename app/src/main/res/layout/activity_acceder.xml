@@ -58,6 +58,7 @@
         android:adjustViewBounds="true"
         android:backgroundTint="#FFFFFF"
         android:cropToPadding="true"
+        android:onClick="onClickAbarrotes"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,6 +93,7 @@
         android:backgroundTint="#FFFFFF"
         android:cropToPadding="true"
         android:scaleType="fitCenter"
+        android:onClick="onClickBebestibles"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.779"
@@ -125,6 +127,7 @@
         android:backgroundTint="#FFFFFF"
         android:cropToPadding="true"
         android:scaleType="fitCenter"
+        android:onClick="onClickVerduras"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.78"
@@ -169,19 +172,21 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
+
         android:id="@+id/imageButton5"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#FFFFFF"
         android:cropToPadding="true"
+        android:onClick="onClickFrutas"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.185"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312"
+        app:layout_constraintVertical_bias="0.299"
         app:srcCompat="@mipmap/fruits"
         tools:ignore="SpeakableTextPresentCheck" />
 
